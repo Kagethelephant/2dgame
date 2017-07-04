@@ -29,7 +29,8 @@
 //1 we can use a global variable 
 //2 we can use public and just access it via a with() statment - IMO Best option
 scenario = 0; // Inititalizing the public variable as long as this object stays "Persistant" this number should only reset on restart
-
+lv2 = 0; //in adition we will also need these variables to know which branch
+lv3 = 0;
 
 view_hview = 420;
 view_wview = view_hview*(display_get_width()/display_get_height());
