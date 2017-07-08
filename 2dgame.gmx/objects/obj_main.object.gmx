@@ -42,6 +42,12 @@ ans4 = 'null';
 
 view_hview = 420;
 view_wview = view_hview*(display_get_width()/display_get_height());
+
+// player variables
+food = 100;
+ammo = 100;
+hp = 100;
+
 </string>
           </argument>
         </arguments>
@@ -91,7 +97,8 @@ if(lv2=0 &amp;&amp; lv3=0)ans4 = array_script[scenario,4];
 else if(lv2 != 0 &amp;&amp; lv3 = 0) ans4 = array_script[scenario,4+lv2*5];
 else ans4 = array_script[scenario,4+lv2*20+lv3*5];
 
-//here is where we will eventually ask if 'text' is a string, if not we will launch corisponding script
+//end actions
+scr_end_action();
     
 </string>
           </argument>

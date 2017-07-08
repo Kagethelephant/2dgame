@@ -10,6 +10,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_script_database.gml</script>
+    <script>scripts\scr_end_action.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_main</font>
