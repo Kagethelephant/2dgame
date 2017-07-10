@@ -10,4 +10,4 @@ switch text
     }
     
 //also just a simple example
-scenario = round(random(20));
+//scenario = round(random(20));
